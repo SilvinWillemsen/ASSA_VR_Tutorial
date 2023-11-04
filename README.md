@@ -41,6 +41,7 @@ This tutorial is based on a previously given workshop by Erik Frej Knudsen and H
 Play the scene and listen, you should now hear a difference when you move around an object.
 
 3.3 Add Steam Audio Geometry
+
 Right now, the geometry does not do anything to the sound yet. We can change this by adding a Steam Audio Geometry object to the environment.
 - Select the Environment Game Object in the Hierarchy.
 - In the Inspector select Add Component → Steam Audio Geometry.
@@ -51,6 +52,7 @@ Right now, the geometry does not do anything to the sound yet. We can change thi
     - Note that whenever you change a material of a geometry, you will have to repeat the Export Active Scene step as explained before.
 
 3.4. Add Occlusion
+
 Now that we have a Steam Audio Geometry, we can start adding occlusion.
 
 - Enable Occlusion in a Steam Audio Source Component and choose Simulation Defined.
@@ -61,6 +63,7 @@ Now that we have a Steam Audio Geometry, we can start adding occlusion.
 Play the scene and listen, sound sources should be occluded when an object is blocking the sound source.
 
 3.5 Add Transmission (optional)
+
 Transmission can also be added.
 - Enable Transmission in a Steam Audio Source Component.
 - If checked, a filter based on the Steam Audio Material of the occluding scene geometry will be applied to the Audio Source. For this, you can choose frequency independent or frequency dependent filtering. The way that the sound is filtered is determined by the Steam Audio Material which you gave to the geometry. 
