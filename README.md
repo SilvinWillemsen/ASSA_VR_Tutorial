@@ -1,10 +1,10 @@
 # ASSA VR Tutorial
 
 ## Introduction
-Welcome to the tutorial of the 5th and last day of the Autumn School Series in Acoustics (ASSA) Acoustic Signal Processing school: Signal Processing for Acoustic Virtual Reality. 
+Welcome to the tutorial of the 5th and last day of the Autumn School Series in Acoustics (ASSA) Acoustic Signal Processing school: **Signal Processing for Acoustic Virtual Reality**. 
 In this tutorial, we will use Unity together with Steam Audio and explore its various capabilities.
 
-This tutorial is based on a previously given workshop by Erik Frej Knudsen and Helmer Nuijens which can be found via: https://github.com/efrej/SpatialAudioWorkshop.
+*(This tutorial is based on a previously given workshop by Erik Frej Knudsen and Helmer Nuijens which can be found via: https://github.com/efrej/SpatialAudioWorkshop.)*
 
 ## 1. Download Unity and open the project
 - Download Unity Hub https://unity.com/download
